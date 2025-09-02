@@ -1,24 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
 header {
     background-color: rgba(252, 227, 144, 1);
 }
 
 #produtos{
     background-color: rgba(236, 164, 250, 1);
-    height: 50px;
-}
-#parceiros{
-    background-color: rgba(117, 226, 226, 1);
-    height: 50px;
-}
-#historia{
-    background-color: rgba(240, 146, 190, 1);
-    height: 50px;
-}
-#cadastro{
-    background-color: rgba(169, 169, 241, 1);
-    height: 50px;
+    height: 150px;
+    padding-top: 30px;
 }
 
-#logotipo{
-    height: 50px;
+#parceiros{
+    background-color: rgba(117, 226, 226, 1);
+    height: 150px;
 }
+
+#historia{
+    background-color: rgba(240, 146, 190, 1);
+    height: 150px;
+}
+
+#cadastro{
+    background-color: rgba(169, 169, 241, 1);
+    height: 150px;
+}
+.logotipo{
+    height: 250px;
+}
+
+body{
+    background-color: rgba(248, 246, 246, 0.952);
+}
+
+ .menu{
+    background-color: rgba(44, 172, 231, 0.548);
+    padding: 15px;
+ }
+
+ .menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(48, 16, 58, 0.692);
+    transition: 0.5s;
+    padding: 5px;
+ }
+
+.menu a:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: rgba(252, 227, 144, 0);
+    border-radius: 3px;
+}
+
+ .menu li{
+    display: inline;
+    padding: 15px;
+ }
+
+ .texto_1{
+    background-color: rgba(105, 165, 255, 0.274);
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.1s;
+ }
+ .texto_1:hover{
+    background-color: rgba(95, 158, 160, 0.267);
+ }
+ .texto_1 p{
+    /*border: solid forestgreen 2px;*/
+    text-align: justify;
+ }
+
