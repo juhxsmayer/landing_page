@@ -13,23 +13,23 @@ header {
 
 #produtos{
     background-color: rgba(236, 164, 250, 1);
-    height: 150px;
+    height: 350px;
     padding-top: 30px;
 }
 
 #parceiros{
     background-color: rgba(117, 226, 226, 1);
-    height: 150px;
+    height: 350px;
 }
 
 #historia{
     background-color: rgba(240, 146, 190, 1);
-    height: 150px;
+    height: 350px;
 }
 
 #cadastro{
     background-color: rgba(169, 169, 241, 1);
-    height: 150px;
+    height: 350px;
 }
 .logotipo{
     height: 250px;
@@ -79,5 +79,20 @@ body{
  .texto_1 p{
     /*border: solid forestgreen 2px;*/
     text-align: justify;
+
  }
 
+.card{
+    border: solid 2px rgb(133, 63, 6);
+    width: 300px;
+}
+
+.imagemcard{
+    width: 145px;
+}
+
+.preco{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
